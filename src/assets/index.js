@@ -36,6 +36,7 @@ import SPIT from "./company/SPIT.png";
 import tesla from "./company/tesla.png";
 import RoundTechSquare from "./company/roundtechsquare.png";
 
+import eventwave from "./eventwave.png";
 import chatbot from "./chatbot.png";
 import ChargeEasy from "./ChargeEasy.png";
 import cfv from "./cfv.png";
@@ -90,4 +91,5 @@ export {
   phone,
   linkedin,
   RoundTechSquare,
+  eventwave,
 };

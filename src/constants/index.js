@@ -29,7 +29,8 @@ import {
   python,
   mendix,
   sm,
-  RoundTechSquare
+  RoundTechSquare,
+  eventwave
 } from "../assets";
 
 export const navLinks = [
@@ -220,7 +221,7 @@ const projects = [
       "Implemented pre-processing and a CNN model using deep learning on the Keras framework, achieving fingerprint recognition accuracy exceeding 90%.",
     tags: [
       {
-        name: "CCN",
+        name: "CNN",
         color: "blue-text-gradient",
       },
       {
@@ -235,6 +236,32 @@ const projects = [
     image: cfv,
     source_code_link: "https://github.com/pranjalpimpale4/Contactless-Fingerprint-Verification-using-Neural-Networks",
     research_paper_link: "https://ieeexplore.ieee.org/document/9510036",
+  },
+  {
+    name: "EventWave",
+    description:
+      "EventWave revolutionizes live events through immersive audience engagement, real-time stadium wave effects, and location verification ",
+    tags: [
+      {
+        name: "Custom Novel Algorithm for Waves",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Dart",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: eventwave,
+    source_code_link: "https://github.com/pranjalpimpale4/eventwave",
+    research_paper_link: "https://drive.google.com/file/d/1NXEqY6IeWKm84VQzWKACyQmmssfqhLRb/view?usp=sharing",
   },
   {
     name: "Bank DBMS",
