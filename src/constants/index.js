@@ -1,25 +1,14 @@
 import {
-  mobile,
-  backend,
-  creator,
   dev,
   cpp,
   java,
-  html,
-  css,
   reactjs,
-  tailwind,
   nodejs,
   mysql,
   git,
   adobexd,
-  docker,
-  meta,
-  starbucks,
   siemens,
   SPIT,
-  tesla,
-  shopify,
   chatbot,
   ChargeEasy,
   cfv,
@@ -30,7 +19,10 @@ import {
   mendix,
   sm,
   RoundTechSquare,
-  eventwave
+  eventwave,
+  chess,
+  adas,
+  django
 } from "../assets";
 
 export const navLinks = [
@@ -82,6 +74,10 @@ const technologies = [
     icon: python,
   },
   {
+    name: "Django",
+    icon: django,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -126,12 +122,24 @@ const experiences = [
     company_name: "Siemens Digital Industries Software",
     icon: siemens,
     iconBg: "#E6DEDD",
-    date: "Jan 2022 - Aug 2023",
+    date: "June 2022 - Aug 2023",
     points: [
       "Led full-stack development of end-to-end SDLC for a supply chain management application. Performed data modeling from scratch to design efficient database structures.",
       "Developed RESTful APIs and optimized frontend performance, achieving 80% code coverage with testing tools. Implemented containerization and improved CI/CD pipelines for streamlined deployment.",
       "Enhanced API testing efficiency, resulting in a 4x increase in testing speed. Automated post-testing tasks with server-side scripts. Managed RESTful API testing using data storage and caching solutions.",
       "Mentored 7 junior developers in best practices. Led the backend Performance Department, addressing scalability challenges. Demonstrated proficiency in infrastructure management and automation.",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "Siemens Digital Industries Software",
+    icon: siemens,
+    iconBg: "#E6DEDD",
+    date: "Jan 2022 - June 2023",
+    points: [
+      "Collaborated with the director to design and develop a comprehensive resource management system, optimizing resource allocation and team productivity.",
+      "Automated manual planning tasks with custom scripts, reducing operational overhead and improving efficiency by 40%.",
+      "Built dynamic dashboards for real-time resource tracking and reporting, enabling data-driven decision-making for stakeholders.",
     ],
   },
   {
@@ -238,6 +246,58 @@ const projects = [
     research_paper_link: "https://ieeexplore.ieee.org/document/9510036",
   },
   {
+    name: "Multi-Player Chess with Load Balancing and SSL using GCP",
+    description:
+      "Developed a dynamic, multi-player chess game using Django with real-time gameplay via Django Channels, Redis, and WebSockets, featuring user authentication, game history, and journaling. Deploy the application to Google Cloud Platform with a load balancer, HTTPS, PostgreSQL, and Dockerized services for scalable performance.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GCP",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: chess,
+    source_code_link: "https://drive.google.com/file/d/167P6NKeglFtz6tt7EDc3jIe4ybKk8CAE/view?usp=sharing",
+    research_paper_link: "https://drive.google.com/drive/folders/1qet8t8lCyJiQ6QaGSkeKpc0GWcbKvSWS?usp=sharing",
+  },
+  {
+    name: "Advanced Driver Assistance System using Cpp on Jetson Nano",
+    description:
+      "Developed Advanced Driver Assistance Systems (ADAS) using OpenCV, CUDA, and NVIDIA Jetson Nano for real-time lane, vehicle, and pedestrian detection.",
+    tags: [
+      {
+        name: "Cpp",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenCV",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CUDA",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JetsonNano",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: adas,
+    source_code_link: "https://github.com/pranjalpimpale4/Car-Autonomous-Systems-and-Intelligent-App",
+    research_paper_link: "https://drive.google.com/drive/folders/1AUlfvsi6H9HNrjWoc8g9tVZMYcm6Ketd?usp=sharing",
+  },
+  {
     name: "EventWave",
     description:
       "EventWave revolutionizes live events through immersive audience engagement, real-time stadium wave effects, and location verification ",
@@ -256,6 +316,10 @@ const projects = [
       },
       {
         name: "Firebase",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Geolocation",
         color: "blue-text-gradient",
       },
     ],

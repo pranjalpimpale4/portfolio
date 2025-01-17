@@ -27,6 +27,7 @@ import python from "./tech/python.png";
 import tailwind from "./tech/tailwind.png";
 import java from "./tech/java.png";
 import matlab from "./tech/matlab.png";
+import django from "./tech/django.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,6 +38,8 @@ import tesla from "./company/tesla.png";
 import RoundTechSquare from "./company/roundtechsquare.png";
 
 import eventwave from "./eventwave.png";
+import adas from "./adas.png";
+import chess from "./chess.png";
 import chatbot from "./chatbot.png";
 import ChargeEasy from "./ChargeEasy.png";
 import cfv from "./cfv.png";
@@ -92,4 +95,7 @@ export {
   linkedin,
   RoundTechSquare,
   eventwave,
+  chess,
+  adas,
+  django
 };
