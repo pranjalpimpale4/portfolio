@@ -22,7 +22,8 @@ import {
   eventwave,
   chess,
   adas,
-  django
+  django,
+  agilepilot
 } from "../assets";
 
 export const navLinks = [
@@ -206,44 +207,34 @@ const projects = [
     research_paper_link: "https://drive.google.com/file/d/1FxUasJsF3A8DaF8PG_CY-xDxVosaZi7H/view?usp=sharing",
   },
   {
-    name: "ChargeEasy",
+    name: "AgilePilot with Complete SDLC",
     description:
-      "Developed a full-stack web application to assist electric vehicle (EV) drivers with navigation, utilizing the Angular framework for the frontend and Firebase for the backend.",
+      "Developed AgilePilot, a robust Agile project management platform emphasizing modular design, scalability, and maintainability. Leveraged Jest for unit testing and Istanbul for code coverage analysis to ensure high-quality, reliable software delivery.",
     tags: [
       {
-        name: "Angular",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "Firebase",
+        name: "PostgreSQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Jest",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Istanbul",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AdobeXD",
         color: "blue-text-gradient",
       },
     ],
-    image: ChargeEasy,
-    source_code_link: "https://github.com/pranjalpimpale4/ChargeEasy",
-    research_paper_link: "https://drive.google.com/file/d/1jBjI5_pBLD1MJ6_msf-n9DB0alx0NM36/view?usp=sharing",
-  },
-  {
-    name: "Contactless Fingerprint Verification",
-    description:
-      "Implemented pre-processing and a CNN model using deep learning on the Keras framework, achieving fingerprint recognition accuracy exceeding 90%.",
-    tags: [
-      {
-        name: "CNN",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MATLAB",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: cfv,
-    source_code_link: "https://github.com/pranjalpimpale4/Contactless-Fingerprint-Verification-using-Neural-Networks",
-    research_paper_link: "https://ieeexplore.ieee.org/document/9510036",
+    image: agilepilot,
+    source_code_link: "https://github.com/grpawarcsu/Agile-Flow-2-5",
+    research_paper_link: "https://drive.google.com/drive/folders/1L7lQIDjoHTI9pvF2rf6xMeXos2WhNFWc?usp=sharing",
   },
   {
     name: "Multi-Player Chess with Load Balancing and SSL using GCP",
@@ -298,6 +289,28 @@ const projects = [
     research_paper_link: "https://drive.google.com/drive/folders/1AUlfvsi6H9HNrjWoc8g9tVZMYcm6Ketd?usp=sharing",
   },
   {
+    name: "Contactless Fingerprint Verification",
+    description:
+      "Implemented pre-processing and a CNN model using deep learning on the Keras framework, achieving fingerprint recognition accuracy exceeding 90%.",
+    tags: [
+      {
+        name: "CNN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MATLAB",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: cfv,
+    source_code_link: "https://github.com/pranjalpimpale4/Contactless-Fingerprint-Verification-using-Neural-Networks",
+    research_paper_link: "https://ieeexplore.ieee.org/document/9510036",
+  },
+  {
     name: "EventWave",
     description:
       "EventWave revolutionizes live events through immersive audience engagement, real-time stadium wave effects, and location verification ",
@@ -326,6 +339,24 @@ const projects = [
     image: eventwave,
     source_code_link: "https://github.com/pranjalpimpale4/eventwave",
     research_paper_link: "https://drive.google.com/file/d/1NXEqY6IeWKm84VQzWKACyQmmssfqhLRb/view?usp=sharing",
+  },
+  {
+    name: "ChargeEasy",
+    description:
+      "Developed a full-stack web application to assist electric vehicle (EV) drivers with navigation, utilizing the Angular framework for the frontend and Firebase for the backend.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ChargeEasy,
+    source_code_link: "https://github.com/pranjalpimpale4/ChargeEasy",
+    research_paper_link: "https://drive.google.com/file/d/1jBjI5_pBLD1MJ6_msf-n9DB0alx0NM36/view?usp=sharing",
   },
   {
     name: "Bank DBMS",

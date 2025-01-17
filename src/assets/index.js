@@ -48,6 +48,7 @@ import DTMF from "./dtmf.jpeg";
 import mail from "./mail.png";
 import phone from "./phone.png"
 import linkedin from "./linkedin.png"
+import agilepilot from "./agilepilot.png"
 
 
 export {
@@ -97,5 +98,6 @@ export {
   eventwave,
   chess,
   adas,
-  django
+  django,
+  agilepilot,
 };
