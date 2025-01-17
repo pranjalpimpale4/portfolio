@@ -135,7 +135,7 @@ const experiences = [
     company_name: "Siemens Digital Industries Software",
     icon: siemens,
     iconBg: "#E6DEDD",
-    date: "Jan 2022 - June 2023",
+    date: "Jan 2022 - June 2022",
     points: [
       "Collaborated with the director to design and develop a comprehensive resource management system, optimizing resource allocation and team productivity.",
       "Automated manual planning tasks with custom scripts, reducing operational overhead and improving efficiency by 40%.",
